@@ -38,8 +38,8 @@ public class Main {
         meat.add("sofritas");
         meat.add("veggies");
 
-        beans.add("pinto");
-        beans.add("black");
+        beans.add("pinto beans");
+        beans.add("black beans");
         beans.add("no beans");
 
         salsa.add("mild");
@@ -55,32 +55,32 @@ public class Main {
 //        cheese.add("extra cheese");
 //        cheese.add("light cheese");
 //        cheese.add("no cheese");
-        cheese.add("yes");
-        cheese.add("no");
+        cheese.add("Cheese: yes");
+        cheese.add("Cheese: no");
 
-        sourCream.add("no");
-        sourCream.add("yes");
+        sourCream.add("Sour Cream: no");
+        sourCream.add("Sour Cream: yes");
 
-        queso.add("yes");
-        queso.add("no");
+        queso.add("Queso: yes");
+        queso.add("Queso: no");
 
 //        side.add("queso");
 //        side.add("sour cream");
 //        side.add("no side");
 //        side.add("Both: sour cream & queso");
 
-        chips.add("yes");
-        chips.add("no");
+        chips.add("Chips: yes");
+        chips.add("Chips: no");
 
-        guac.add("no");
-        guac.add("yes");
+        guac.add("Guac: no");
+        guac.add("Guac: yes");
 
-        beverage.add("coke");
-        beverage.add("sprite");
-        beverage.add("mountain dew");
-        beverage.add("izzy");
-        beverage.add("water");
-        beverage.add("beer");
+        beverage.add("Beverage: coke");
+        beverage.add("Beverage: sprite");
+        beverage.add("Beverage: mountain dew");
+        beverage.add("Beverage: izzy");
+        beverage.add("Beverage: water");
+        beverage.add("Beverage: beer");
         beverage.add("cup of ice *ice is not free");
 
         int rand_salsa, rand_meat, rand_rice, rand_cheese, rand_veggies,
@@ -123,8 +123,8 @@ public class Main {
             //show customiziations in order
             System.out.println("Burrito" + num  + ": " + rice.get(rand_rice) + ", " + beans.get(rand_beans) + ", "
                     + meat.get(rand_meat) + ", " + salsa.get(rand_salsa) + ", " + veggies.get(rand_veggies) + ", "
-                    + cheese.get(rand_cheese) + ", " + guac.get(rand_rice) + " ," + queso.get(rand_queso) + ", " +
-            sourCream.get(rand_sourCream) + ", " + beverage.get(rand_beans));
+                    + cheese.get(rand_cheese) + ", " + guac.get(rand_guac) + " ," + queso.get(rand_queso) + ", " +
+            sourCream.get(rand_sourCream) + ", " + beverage.get(rand_beverage));
             num++;
 
 //
